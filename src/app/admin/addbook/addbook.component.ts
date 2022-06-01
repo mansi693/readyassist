@@ -23,7 +23,7 @@ export class AddbookComponent implements OnInit {
 
   addBooks(){
     this.bookservice.addBooking(this.booking).subscribe((response)=>
-        console.log("done")  
+        console.log("booking done")  
      )
   }
     goBack(){
